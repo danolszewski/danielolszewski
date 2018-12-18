@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+}
+
+.wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: white;
+
+}
+
+.logo {
+    width: 100%;
+    height: 90%;
+    background-image: url("sm_Images/michalskilogo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav p {
+    display: none;
+}
+
+aside {
+    background-color: #D3B9B8;
+}
+
+aside p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 75vh;
+    padding-bottom: 10px;
+}
+
+.card .img {
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description {
+    flex-basis: 100%;
+    margin: 0 15px;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .description h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card .description p {
+    text-align: justify;
+}
+
+.card:nth-of-type(2),
+.card:nth-of-type(4) {
+    background-color: #F3F1EC;
+}
+
+
+.card:nth-of-type(1) .img {
+    background-image: url("sm_Images/1.jpg");
+}
+
+.card:nth-of-type(2) .img {
+    background-image: url("sm_Images/2.jpg");
+}
+
+.card:nth-of-type(3) .img {
+    background-image: url("sm_Images/3.jpg");
+}
+
+.card:nth-of-type(4) .img {
+    background-image: url("sm_Images/4.jpg");
+}
+
+.slogan {
+    background-color: #9D9C98;
+    color: #EEDBD7;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+.slogan p:nth-child(1) {
+    font-weight: 300;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.slogan p:nth-child(2) {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.gallery {
+    display: block;
+    text-decoration: none;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #D1CEC7;
+}
+
+footer {
+    background-color: #D3B9B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adress {
+    flex-basis: 50%;
+    padding-right: 5px;
+}
+
+.adress p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.adress p:nth-child(2) {
+    font-weight: 700;
+}
+
+.phone {
+    flex-grow: 1;
+    text-align: center;
+    line-height: 80px;
+}
+
+.phone p {
+    font-size: 2rem;
+}
+
+@media (min-width: 320px) {
+    .gallery {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) {
+    .card {
+        height: 50vh;
+    }
+
+    .card .img {
+        height: 60%;
+    }
+
+    .card .description p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 533px) and (orientation: landscape) {
+    nav {
+        height: 40vh;
+    }
+
+    aside p {
+        line-height: 10vh;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 50%;
+        height: 150vh;
+        padding-bottom: 25px;
+    }
+
+    .card .img {
+        height: 71%;
+    }
+
+    .description {
+        margin-top: 10px;
+    }
+
+    .card .description h2 {
+        font-size: 1.7rem;
+        padding-bottom: 10px;
+    }
+
+    .card .description p {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+    .adress p {
+        font-size: 1.7rem;
+    }
+
+    .phone p {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 667px) and (orientation: landscape) {
+    .card {
+        height: 105vh;
+        padding-bottom: 35px;
+
+    }
+
+    .card .img {
+        height: 74%;
+    }
+}
+
+@media (min-width: 768px) {
+    aside p {
+        font-size: 2.5rem;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .description {
+        margin: 0 30px;
+    }
+
+    .card .description h2 {
+        font-size: 2.5rem;
+    }
+
+    .card .description p {
+        font-size: 1.25rem;
+    }
+
+    .card:nth-of-type(4) {
+        background-color: white;
+    }
+
+    .card:nth-of-type(3) {
+        background-color: #F3F1EC;
+    }
+
+    .adress p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 854px) and (orientation: landscape) {
+    aside p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    nav {
+        height: 20vh;
+    }
+
+    .card {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1025px) {
+    aside p {
+        line-height: 6vh;
+    }
+
+    .card {
+        height: 70vh;
+    }
+
+    .card .description h2 {
+        padding-top: 20px;
+    }
+
+    .card .description p {
+        font-size: 1.5rem;
+    }
+}

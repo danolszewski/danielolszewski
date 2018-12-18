@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.siteWrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+nav {
+    display: none;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A3966B;
+}
+
+nav ul li {
+    flex-basis: 23%;
+    list-style: none;
+    text-align: center
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+header {
+    height: 50vh;
+    background-image: url('vet_img/Lucerne_iStock_000022610052_Large.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.card {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px 0;
+}
+
+section.card i {
+    font-size: 4rem;
+    color: #A3966B;
+}
+
+.card h2,
+.mission h2,
+.doctors h2 {
+    font-size: 2.5rem;
+}
+
+.card p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 15px;
+}
+
+.card article,
+.mission article {
+    margin-top: 10px;
+}
+
+.mission {
+    background-color: black;
+    color: #A3966B;
+    text-align: center;
+    padding: 40px 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+
+.mission p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.doctors h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.doctor {
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto 30px;
+    padding: 20px;
+}
+
+.doctor:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+.img {
+    height: 80%;
+    background-image: url('vet_img/Blvd_Vet_Rose-6_Print.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .doctor:nth-of-type(1) {
+  padding-right: 10px;
+}
+
+.doctor:nth-of-type(2) {
+  padding-left: 10px;
+} */
+
+.doctor span {
+    color: #A3966B;
+    font-size: 1.7rem;
+    margin-right: 5px;
+}
+
+.doctor h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+aside {
+    background-color: #A3966B;
+}
+
+aside .card {
+    width: 100%;
+    text-align: center;
+
+    padding: 30px 0;
+}
+
+aside .card i {
+    font-size: 4rem;
+}
+
+aside img {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.animal:nth-of-type(1) {
+    height: 35vh;
+    margin-top: 30px;
+    background-image: url('vet_img/dog_small.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.animal:nth-of-type(2) {
+    height: 35vh;
+    margin: 20px 0;
+    background-image: url('vet_img/lama_small.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.animal:nth-of-type(3) {
+    height: 35vh;
+    margin-bottom: 15px;
+    background-image: url('vet_img/cat_small.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: #A3966B;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px auto;
+    padding: 10px 0;
+    background-color: white;
+
+}
+
+.footer .socials i {
+    font-size: 4rem;
+}
+
+.adress {
+    padding-top: 30px;
+}
+
+.adress,
+.contact {
+    width: 100%;
+    text-align: center;
+}
+
+.contact,
+.adress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.contact h2,
+.adress h2 {
+    width: 100%;
+    font-size: 1.8rem;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.contact p,
+.adress p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.contact p span,
+.adress p span {
+    font-size: 1.2rem;
+    padding-left: 4px;
+}
+
+.footerWrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+    .doctor {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 384px) {
+
+    .contact h2,
+    .adress h2 {
+        font-size: 2rem;
+    }
+
+    .contact p,
+    .adress p {
+        font-size: 1.5rem;
+    }
+
+    .contact p span,
+    .adress p span {
+        font-size: 1.6rem;
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* nav {
+    display: block;
+  }
+
+  nav ul li:hover a {
+    color: white;
+  } */
+    .logo {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    section.card i {
+        font-size: 6rem;
+        color: #A3966B;
+    }
+
+    .card h2,
+    .mission h2,
+    .doctors h2 {
+        font-size: 4.5rem;
+    }
+
+    .card p {
+        font-size: 3.2rem;
+        margin: 0 40px;
+    }
+
+    .mission {
+        padding: 70px 0;
+    }
+
+    .mission p {
+        font-size: 3rem;
+        margin: 0 30px;
+    }
+
+    .doctors {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .doctors h2 {
+        width: 100%;
+    }
+
+    .doctor {
+        width: 50%;
+    }
+
+    .doctor span {
+        font-size: 2.5rem;
+    }
+
+    .doctor h2 {
+        font-size: 3rem;
+    }
+
+
+    .animal:nth-of-type(1),
+    .animal:nth-of-type(2),
+    .animal:nth-of-type(3) {
+        height: 45vh;
+    }
+
+    .contact p,
+    .adress p {
+        font-size: 2rem;
+    }
+
+    .contact p span,
+    .adress p span {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .animals {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .animal:nth-of-type(1),
+    .animal:nth-of-type(2),
+    .animal:nth-of-type(3) {
+        width: 30vw;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .contact p,
+    .adress p {
+        font-size: 2.7rem;
+    }
+
+    .contact p span,
+    .adress p span {
+        font-size: 2.9rem;
+    }
+
+    .contact h2,
+    .adress h2 {
+        font-size: 4rem;
+    }
+
+    .footer .socials i {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width:533px) and (orientation: landscape) {
+    .logo {
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    header {
+        height: 75vh;
+    }
+
+    aside .card {
+        margin: 20px 0 0;
+    }
+
+    .doctors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .doctors h2 {
+        width: 100%;
+    }
+
+    .doctor {
+        width: 50%;
+        height: 50vh;
+        margin: 0;
+    }
+
+    .animals {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 0;
+    }
+
+    .animal {
+        width: 30%;
+    }
+
+    .animal:nth-of-type(1),
+    .animal:nth-of-type(2),
+    .animal:nth-of-type(3) {
+        margin: 0
+    }
+}
+
+@media (min-width:812px) and (orientation: landscape) {
+    section .card i {
+        font-size: 4rem;
+    }
+
+    .card h2,
+    .mission h2,
+    .doctors h2 {
+        font-size: 3.5rem;
+    }
+
+    .card p,
+    .mission p {
+        font-size: 2.7rem;
+    }
+
+}

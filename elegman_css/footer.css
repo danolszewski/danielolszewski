@@ -1,0 +1,96 @@
+#footer-wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    height: 130px;
+    background-color: #000000;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#logo {
+    float: left;
+}
+
+
+#logo a {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Poiret One;
+    margin-top: 35px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu {
+    float: left;
+    margin-top: 40px;
+    font-family: Pathway Gothic One;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#menu ul li {
+    float: left;
+ 
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+#menu2 {
+    float: right;
+    font-family: Pathway Gothic One;
+    font-size: 11px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+#menu2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu2 ul li {
+    float: left;
+}
+
+#menu2 ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}

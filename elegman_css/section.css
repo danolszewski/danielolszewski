@@ -1,0 +1,80 @@
+#ceo {
+    background-color: #F7F7F7;
+    padding-top: 100px;
+}
+
+#section-ceo-wrapper {
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+#photo {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#photo img {
+    border-radius: 50%;
+}
+
+#left,
+#right {
+    width: 33%;
+    float: left;
+    font-size: 12px;
+    font-family: Pathway Gothic One;
+    text-align: left;
+    letter-spacing: 1.1px;
+    padding-top: 14px;
+    
+}
+
+#center {
+    width: 33%;
+    float: left;
+    font-size: 24px;
+    font-family: Pathway Gothic One;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+#left {
+    padding-right: 30px;
+}
+
+#right {
+    padding-left: 30px;
+}
+
+#signature {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.button {
+    background-color: #4C413F;
+    border: none;
+    color: white;
+    padding: 4px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Pathway Gothic One;
+}

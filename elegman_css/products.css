@@ -1,0 +1,92 @@
+#products-wrapper {
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    width: 50%;
+    background-color: #1A1A1A;
+    float: left;
+    text-align: center;
+}
+
+.text {
+    border-bottom: 1px solid white;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    opacity: 0.5;
+    top: 50%;
+    position: relative;
+    margin-top: -50%;
+}
+
+.this {
+    font-size: 30px;
+    color: white;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.those {
+    font-size: 10px;
+    font-family: Oswald;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    margin: 0;
+}
+
+#img1 {
+    background-image: url(../elegman_images/watch.PNG);
+}
+
+#img2 {
+    background-image: url(../elegman_images/bracelet.PNG);
+}
+
+#img3 {
+    background-image: url(../elegman_images/notebook.PNG);
+}
+
+#img4 {
+    background-image: url(../elegman_images/belt.PNG);
+}
+
+#img5 {
+    background-image: url(../elegman_images/book.PNG);
+}
+
+.buttonDiscover {
+    background-color: #1A1A1A;
+    border: 1px solid grey;
+    color: white;
+    padding: 4px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: EB Garamond;
+    top: 80%;
+    position: relative;
+}
