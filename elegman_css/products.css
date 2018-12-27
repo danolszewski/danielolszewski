@@ -1,4 +1,4 @@
-#products-wrapper {
+.products-wrapper {
     margin: 0 auto;
     max-width: 65%;
 }
@@ -41,11 +41,11 @@
     letter-spacing: 1px;
 }
 
-#img1,
+.img1,
 #img2,
-#img3,
-#img4,
-#img5 {
+.img3,
+.img4,
+.img5 {
     width: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,23 +54,23 @@
     margin: 0;
 }
 
-#img1 {
+.img1 {
     background-image: url(../elegman_images/watch.PNG);
 }
 
-#img2 {
+.img2 {
     background-image: url(../elegman_images/bracelet.PNG);
 }
 
-#img3 {
+.img3 {
     background-image: url(../elegman_images/notebook.PNG);
 }
 
-#img4 {
+.img4 {
     background-image: url(../elegman_images/belt.PNG);
 }
 
-#img5 {
+.img5 {
     background-image: url(../elegman_images/book.PNG);
 }
 

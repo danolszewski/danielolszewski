@@ -22,18 +22,23 @@
 <body>
 
     <header>
+        <nav>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-tree off"></i>
+            </div>
+            <p class="logo">D.</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="wrap">
-            <img src="img/mountain.png" alt="">
-            <nav class="clearfix">
-                <p class="logo">D.</p>
-                <ul class="clearfix">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="iam"></div>
+
             <div class="description">
                 <p>welcome. I am</p>
                 <h1>Daniel <span>Olszewski</span></h1>
@@ -41,10 +46,11 @@
                 <p class="button">Download CV</p>
             </div>
         </div>
+
     </header>
 
     <section class="footerHeader">
-        <div class="wrap contact_header clearfix">
+        <div class="wrap contact_header">
             <div class="looking">
                 <p>Are you looking for</p>
                 <p><span>Junior Front-end Dev?</span></p>
@@ -65,7 +71,7 @@
     </section>
     <section class="aboutMe">
         <div class="wrap about">
-            <div class="row clearfix">
+            <div class="row">
                 <h2>about me</h2>
                 <div class="row_aboutMe">
                     <p>Hello, I'm Daniel Olszewski, Junior Front-End Developer based in Poland - I
@@ -81,22 +87,6 @@
                         a. running). </p>
                 </div>
             </div>
-            <!--<div class="row_about clearfix">
-                <div class="row_about__block">
-                    <div class="row_about__border">
-                        <img src="img/codewindow.PNG" alt="code window icon">
-                        <h3>development</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="row_about__block">
-                    <div class="row_about__border">
-                        <img src="img/marketing.PNG" alt="marketing icon">
-                        <h3>marketing</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                -->
         </div>
 
         </div>
@@ -113,16 +103,31 @@
 
     <section class="skills">
         <div class="wrap">
-            <div class="row_technologies clearfix">
+            <div class="row_technologies">
                 <h2>skills</h2>
-                <div class="skill">
-                    <i class="fab fa-html5"></i>
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>HTML5</p>
                 </div>
-                <div class="skill">
-                    <img src="img/bootstrap.png" alt="bootsrap logo icon">
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>CSS</p>
                 </div>
-                <div class="skill">
-                    <i class="fab fa-css3-alt"></i>
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>SASS</p>
+                </div>
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>JAVA</p>
+                </div>
+                <div class="skill_example">
+                    <div class="skill"></div>
+                    <p>Github</p>
                 </div>
             </div>
         </div>
@@ -130,27 +135,27 @@
     <section class="portfolio">
         <div class="wrap">
             <h2>Portfolio</h2>
-            <div class="project clearfix">
+            <div class="project">
                 <div class="web">
-                    <a href="vet.html"><img src="img/vet.PNG" alt="Veterinary project"></a>
+                    <a href="vet.html"><div class="project_icon"></div></a>
                 </div>
                 <div class="project_about">
                     <h3>Veterinary</h3>
                     <p>Website & Logo</p>
                 </div>
             </div>
-            <div class="project clearfix">
+            <div class="project">
                 <div class="web">
-                    <a href="elegman.html"><img src="img/elegman.PNG" alt="Elegman project"></a>
+                    <a href="elegman.html"><div class="project_icon"></div></a>
                 </div>
                 <div class="project_about">
                     <h3>Elegman</h3>
                     <p>Website & Logo</p>
                 </div>
             </div>
-            <div class="project clearfix">
+            <div class="project">
                 <div class="web">
-                    <a href="sm.html"><img src="img/sm.PNG" alt="Slawomir Michalski project"></a>
+                    <a href="sm.html"><div class="project_icon"></div></a>
                 </div>
                 <div class="project_about">
                     <h3>Slawomir Michalski Goldsmith</h3>
@@ -161,10 +166,10 @@
 
         </div>
     </section>
-    <section class="contact clearfix">
+    <section class="contact">
         <h2>get in touch</h2>
-        <div class="form_wrap clearfix">
-            <form class="clearfix">
+        <div class="form_wrap">
+            <form>
                 <div class="field_set_l">
                     <input type="text" placeholder="Name">
                 </div>
@@ -172,45 +177,36 @@
                     <input type="text" placeholder="Email">
                 </div>
                 <textarea placeholder="Message"></textarea>
-                <div class="button_wrap">
-                    <button>send a message</button>
-                </div>
+                <button>send a message</button>
+
             </form>
         </div>
         <div class="socials">
-            <div class="social_adres clearfix">
-                <div class="social">
-                    <img src="img/phone-call.png" alt="phone icon">
-                    <span><b>+48</b>502 346 111</span>
-                </div>
-                <div class="social">
-                    <img src="img/envelope.png" alt="email icon">
-                    <span>daniel.olszewski@.pl</span>
-                </div>
-                <div class="social">
-                    <img src="img/placeholder.png" alt="placeholder icon">
-                    <span>Bydgoszcz</span>
-                </div>
+            <div class="social">
+                <img src="img/phone-call.png" alt="phone icon">
+                <span><b>+48</b> 502 346 111</span>
             </div>
-            <div class="social_icon clearfix">
-                <a href="https://www.linkedin.com/in/daniel-olszewski/" target="_blank">
+            <div class="social">
+                <img src="img/envelope.png" alt="email icon">
+                <span>daniel.olszewski@.pl</span>
+            </div>
+            <a href="https://www.linkedin.com/in/daniel-olszewski/" target="_blank">
                 <div class="social">
                     <img src="img/linkedin.png" alt="linkedin icon">
                     <span>/daniel-olszewski</span>
                 </div>
-            </a>
-                <a href="https://github.com/danolszewski" target="_blank">
-            <div class="social">
-                <img src="img/github-logo.png" alt="github icon">
-                <span>/danolszewski</span>
-            </div>
+                </a>
+            <a href="https://github.com/danolszewski" target="_blank">
+                    <div class="social">
+                    <img src="img/github-logo.png" alt="github icon">
+                    <span>/danolszewski</span>
+                    </div>   </a>
         </div>
-            </a>
-            </div>
     </section>
     <footer>
-        <p>&copy Daniel<span>Olszewski</span>|2018</p>
+        <p>&copy Daniel Olszewski | 2018</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

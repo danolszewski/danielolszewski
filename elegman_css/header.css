@@ -13,7 +13,7 @@
 }
 
 
-#logotype {
+.logotype {
     text-align: center;
     padding-top: 2%;
     font-size: 20px;
@@ -22,7 +22,7 @@
     font-family: Poiret One;
 }
 
-#bar {
+.bar {
     color: white;
     position: absolute;
     left: 3%;
@@ -78,35 +78,33 @@
     font-size: 0.8rem;
 }
 
-#header-text-wrapper {
+.header-text-wrapper {
     text-align: center;
     margin-top: 10%;
 }
 
-#first,
-#second,
-#third {
+.first,
+.second,
+.third {
     color: white;
     display: block;
+    font-family: Pathway Gothic One;
 }
 
-#first {
-    font-family: Pathway Gothic One;
+.first {
     font-size: 15px;
     letter-spacing: 5px;
     opacity: 0.8;
 }
 
-#second {
-    font-family: Pathway Gothic One;
+.second {
     font-size: 80px;
     letter-spacing: 15px;
     text-transform: uppercase;
     opacity: 0.8;
 }
 
-#third {
-    font-family: Pathway Gothic One;
+.third {
     font-size: 15px;
     letter-spacing: 2.5px;
     opacity: 0.6

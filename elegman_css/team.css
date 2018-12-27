@@ -1,24 +1,26 @@
-#team-wrapper {
+.team-wrapper {
     margin: 0 auto;
     width: 100%;
     padding-bottom: 100px;
 }
 
-#image {
+.image {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-#image img {
+.image img {
     border-radius: 50%;
 }
 
-#team {
+.team {
     background-color: #292929
 }
 
-#profession, span, #name {
+.profession,
+span,
+#name {
     color: white;
     font-size: 12px;
     text-align: center;
@@ -33,12 +35,12 @@ span {
     opacity: 0.6;
 }
 
-#name {
+.name {
     font-size: 14px;
     opacity: 0.8;
     text-transform: uppercase;
 }
 
-#profession {
+.profession {
     text-transform: uppercase;
 }

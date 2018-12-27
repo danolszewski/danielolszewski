@@ -1,4 +1,4 @@
-#footer-wrapper {
+.footer-wrapper {
     max-width: 70%;
     margin: 0 auto;
 }
@@ -11,12 +11,12 @@ footer {
 
 }
 
-#logo {
+.logo {
     float: left;
 }
 
 
-#logo a {
+.logo a {
     font-size: 20px;
     color: white;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ footer {
     text-decoration: none;
 }
 
-#menu {
+.menu {
     float: left;
     margin-top: 40px;
     font-family: Pathway Gothic One;
@@ -36,26 +36,26 @@ footer {
 
 }
 
-#menu ul {
+.menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
 }
 
-#menu ul li {
+.menu ul li {
     float: left;
- 
+
 }
 
-#menu ul li a {
+.menu ul li a {
     color: white;
     text-decoration: none;
     margin-left: 35px;
     margin-right: 10px;
 }
 
-#menu2 {
+.menu2 {
     float: right;
     font-family: Pathway Gothic One;
     font-size: 11px;
@@ -64,17 +64,17 @@ footer {
     margin-top: 10px;
 }
 
-#menu2 ul {
+.menu2 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#menu2 ul li {
+.menu2 ul li {
     float: left;
 }
 
-#menu2 ul li a {
+.menu2 ul li a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
